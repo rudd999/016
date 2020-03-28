@@ -6,7 +6,7 @@ EXPOSE 8081
 
 RUN apt-get update
 
-RUN apt install -y apache2
+CMD apt install -y apache2
 
-ENTRYPOINT tail -f /dev/null
+CMD tail -f /dev/null
 
