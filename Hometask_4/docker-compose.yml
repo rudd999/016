@@ -1,0 +1,10 @@
+version:'3'
+services:
+	ubuntu:
+		build:
+			context:./ubuntu-docker
+			dockerfile:Dockerfile
+mysql:
+	build:
+		context:./mysql-docker
+		dockerfile:Dockerfile	
